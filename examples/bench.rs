@@ -59,7 +59,6 @@ fn main() {
         assert!(db.get(k).unwrap().is_some());
     }
     let hit_s = t.elapsed().as_secs_f64();
-    let a = db.stats().clone();
     // Absent keys from inside the key range, so range checks can't reject them: only the
     // Bloom filters can.
     let inserted: std::collections::HashSet<&Vec<u8>> = present.iter().collect();
