@@ -3,7 +3,7 @@ name = "lsm-kv"
 version = "0.1.0"
 edition = "2021"
 authors = ["Ankit Pawar"]
-license = "MIT"
+license-file = "LICENSE"
 description = "A log-structured merge-tree key-value store: WAL, SSTables, Bloom filters, leveled compaction, crash recovery"
 rust-version = "1.82"
 
